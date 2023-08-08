@@ -6,6 +6,10 @@
   max-height: 100vh;
   overflow: scroll;
 }
+
+.App::-webkit-scrollbar {
+  display: none;
+}
 .App *{
   padding: 0;
   margin: 0;
